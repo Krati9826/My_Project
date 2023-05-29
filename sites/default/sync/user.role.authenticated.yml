@@ -1,0 +1,33 @@
+uuid: 8368a0f5-769b-497a-a01d-68c04d47c459
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+    - rest.resource.custom_get_top_recruiters
+    - rest.resource.project_rest_api
+  module:
+    - comment
+    - contact
+    - filter
+    - rest
+    - search
+    - shortcut
+    - system
+_core:
+  default_config_hash: I44QAB4es39lNzMQWiJLq2dfjX7VRSOzT_5KzAcUq_M
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'post comments'
+  - 'restful get custom_get_top_recruiters'
+  - 'restful get project_rest_api'
+  - 'search content'
+  - 'skip comment approval'
+  - 'use text format basic_html'

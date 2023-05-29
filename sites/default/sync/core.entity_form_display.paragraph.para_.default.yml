@@ -1,0 +1,21 @@
+uuid: f7fc2fad-6627-4d28-8661-c87bde0d1486
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.para_.field_texonomy
+    - paragraphs.paragraphs_type.para_
+id: paragraph.para_.default
+targetEntityType: paragraph
+bundle: para_
+mode: default
+content:
+  field_texonomy:
+    type: options_buttons
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

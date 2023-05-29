@@ -1,0 +1,52 @@
+uuid: 8a2f8c27-8001-444b-87ad-cb4e5e4d5c61
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.colleges_contact_form_.field_contact_info
+    - field.field.node.colleges_contact_form_.field_gmap
+    - node.type.colleges_contact_form_
+  module:
+    - entity_reference_revisions
+    - simple_gmap
+    - user
+id: node.colleges_contact_form_.default
+targetEntityType: node
+bundle: colleges_contact_form_
+mode: default
+content:
+  field_contact_info:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_gmap:
+    type: simple_gmap
+    label: hidden
+    settings:
+      include_map: true
+      include_static_map: false
+      include_link: false
+      include_text: false
+      iframe_height: '400'
+      iframe_width: '800'
+      iframe_title: ''
+      static_scale: 1
+      zoom_level: 14
+      link_text: 'View larger map'
+      map_type: m
+      langcode: en
+      apikey: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

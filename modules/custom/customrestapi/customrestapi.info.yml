@@ -1,0 +1,5 @@
+name: Custom Project Rest API
+type: module
+description: Module for implementing Custom Rest Service.
+core_version_requirement: ^9 || ^10
+package: Custom Project APIs

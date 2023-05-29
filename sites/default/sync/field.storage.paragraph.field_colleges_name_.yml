@@ -1,0 +1,21 @@
+uuid: b45c4040-adef-4ab7-b7e0-3b85998b0b77
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_colleges_name_
+field_name: field_colleges_name_
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,21 @@
+uuid: c6f442ee-ee91-4c2f-9d1e-6dcb61ffd257
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.para_.field_texonomy
+    - paragraphs.paragraphs_type.para_
+id: paragraph.para_.default
+targetEntityType: paragraph
+bundle: para_
+mode: default
+content:
+  field_texonomy:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

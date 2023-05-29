@@ -1,0 +1,21 @@
+uuid: 1c39cf3d-973e-4c29-ae53-6c4dd88a7b3e
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.courses
+  module:
+    - text
+id: taxonomy_term.courses.default
+targetEntityType: taxonomy_term
+bundle: courses
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }
