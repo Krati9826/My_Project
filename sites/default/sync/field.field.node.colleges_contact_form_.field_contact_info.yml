@@ -1,0 +1,40 @@
+uuid: bdfdd19c-4fe1-48a9-b044-e582ef091d4e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_contact_info
+    - node.type.colleges_contact_form_
+    - paragraphs.paragraphs_type.colleges_contacts
+  module:
+    - entity_reference_revisions
+id: node.colleges_contact_form_.field_contact_info
+field_name: field_contact_info
+entity_type: node
+bundle: colleges_contact_form_
+label: 'Contact Info'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      colleges_contacts: colleges_contacts
+    negate: 0
+    target_bundles_drag_drop:
+      about_para:
+        weight: 5
+        enabled: false
+      colleges_contacts:
+        weight: 6
+        enabled: true
+      menu_link_para_:
+        weight: 7
+        enabled: false
+      para_:
+        weight: 8
+        enabled: false
+field_type: entity_reference_revisions

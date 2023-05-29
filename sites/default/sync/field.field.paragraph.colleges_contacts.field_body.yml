@@ -1,0 +1,23 @@
+uuid: 54724c6d-549a-45ed-97b3-43c28b7be7a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_body
+    - paragraphs.paragraphs_type.colleges_contacts
+  module:
+    - text
+id: paragraph.colleges_contacts.field_body
+field_name: field_body
+entity_type: paragraph
+bundle: colleges_contacts
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

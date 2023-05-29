@@ -1,0 +1,19 @@
+uuid: e8094451-4d78-4e36-be41-52e3cadddafa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gmap
+    - node.type.colleges_contact_form_
+id: node.colleges_contact_form_.field_gmap
+field_name: field_gmap
+entity_type: node
+bundle: colleges_contact_form_
+label: GMap
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

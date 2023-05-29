@@ -1,0 +1,29 @@
+uuid: 7d6d4194-7364-4052-936d-1e9b53d7feca
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_texonomy
+    - paragraphs.paragraphs_type.para_
+    - taxonomy.vocabulary.courses
+id: paragraph.para_.field_texonomy
+field_name: field_texonomy
+entity_type: paragraph
+bundle: para_
+label: texonomy
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      courses: courses
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

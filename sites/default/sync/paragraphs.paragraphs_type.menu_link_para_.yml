@@ -1,0 +1,10 @@
+uuid: c809ae0e-fef3-41e4-ba52-02b69d05c858
+langcode: en
+status: true
+dependencies: {  }
+id: menu_link_para_
+label: 'menu link para '
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

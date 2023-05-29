@@ -1,0 +1,8 @@
+uuid: f6b8e428-b2a1-4f14-9d67-32161f03f949
+langcode: en
+status: true
+dependencies: {  }
+id: my_project
+label: 'My Project'
+revision: 0
+description: ''

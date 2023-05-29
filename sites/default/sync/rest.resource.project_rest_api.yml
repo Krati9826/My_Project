@@ -1,0 +1,18 @@
+uuid: 1d1c68e7-b9fd-47be-8db1-54a25760b0b3
+langcode: en
+status: true
+dependencies:
+  module:
+    - customrestapi
+    - serialization
+    - user
+id: project_rest_api
+plugin_id: project_rest_api
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie

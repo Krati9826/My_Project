@@ -1,0 +1,10 @@
+uuid: 6cc2eea6-e069-40a9-8388-26f7251ffba8
+langcode: en
+status: true
+dependencies: {  }
+id: colleges_contacts
+label: 'Colleges Contacts'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

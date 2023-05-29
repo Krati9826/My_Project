@@ -1,0 +1,19 @@
+uuid: 9405b9a2-49af-492f-9a56-fd1302586fc6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_colleges_name_
+    - paragraphs.paragraphs_type.colleges_contacts
+id: paragraph.colleges_contacts.field_colleges_name_
+field_name: field_colleges_name_
+entity_type: paragraph
+bundle: colleges_contacts
+label: 'Colleges Name '
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

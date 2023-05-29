@@ -1,0 +1,8 @@
+uuid: ca0d6585-cf2e-4d35-a86f-d175bf201200
+langcode: en
+status: true
+dependencies: {  }
+name: Courses
+vid: courses
+description: ''
+weight: 0
