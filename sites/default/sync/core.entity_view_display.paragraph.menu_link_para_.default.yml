@@ -1,0 +1,27 @@
+uuid: 83b1e890-4c01-448d-9a37-f8962ebcbc3a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.menu_link_para_.field_link
+    - paragraphs.paragraphs_type.menu_link_para_
+  module:
+    - link
+id: paragraph.menu_link_para_.default
+targetEntityType: paragraph
+bundle: menu_link_para_
+mode: default
+content:
+  field_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

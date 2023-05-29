@@ -1,0 +1,18 @@
+uuid: 51e0a274-10f2-4f33-b767-c1666245df3e
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_email
+field_name: field_email
+entity_type: paragraph
+type: email
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

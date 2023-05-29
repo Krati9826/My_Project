@@ -1,0 +1,36 @@
+uuid: 2ab7c281-5c56-4ca1-a488-9929eac9ec1e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.colleges_contacts.field_body
+    - field.field.paragraph.colleges_contacts.field_colleges_name_
+    - paragraphs.paragraphs_type.colleges_contacts
+  module:
+    - text
+id: paragraph.colleges_contacts.default
+targetEntityType: paragraph
+bundle: colleges_contacts
+mode: default
+content:
+  field_body:
+    type: text_textarea_with_summary
+    weight: 1
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_colleges_name_:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

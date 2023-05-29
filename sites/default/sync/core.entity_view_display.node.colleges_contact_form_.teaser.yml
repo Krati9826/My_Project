@@ -1,0 +1,24 @@
+uuid: 2ec2580c-d560-4bd3-96bb-3cd47296beaf
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.colleges_contact_form_.field_contact_info
+    - field.field.node.colleges_contact_form_.field_gmap
+    - node.type.colleges_contact_form_
+  module:
+    - user
+id: node.colleges_contact_form_.teaser
+targetEntityType: node
+bundle: colleges_contact_form_
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_contact_info: true
+  field_gmap: true

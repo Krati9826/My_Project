@@ -1,0 +1,52 @@
+uuid: 34b477bf-fb19-430c-8086-2e404078edb4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.about_para.field_email
+    - field.field.paragraph.about_para.field_image
+    - field.field.paragraph.about_para.field_name
+    - field.field.paragraph.about_para.field_title
+    - paragraphs.paragraphs_type.about_para
+  module:
+    - image
+id: paragraph.about_para.default
+targetEntityType: paragraph
+bundle: about_para
+mode: default
+content:
+  field_email:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }
