@@ -25,7 +25,7 @@ class CollegesContactFormRestResource extends ResourceBase {
     public function get() {
     //   $response = ['message' => 'Hello, this is a rest service'];
       $nids = \Drupal::entityQuery('node')->condition('type','colleges_contact_form_')->execute();
-      $nodes =  \Drupal\node\Entity\Node::load($nids[36]);
+      $nodes =  \Drupal\node\Entity\Node::load($nids[37]);
     //   $title = [];
     //   $title[0] = $nodes->title->value;
     //   $title[1] = $nodes->field_title->value;
