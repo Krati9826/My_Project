@@ -1,0 +1,18 @@
+{
+	"info": {
+		"_postman_id": "781ea9bc-d21b-4363-a391-d0e85ec3764c",
+		"name": "MenuItems",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27724040"
+	},
+	"item": [
+		{
+			"name": "menuitemsrequest",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
