@@ -1,0 +1,18 @@
+uuid: 4ce1075f-2a89-4c2e-a5c3-3bfc634d14b1
+langcode: en
+status: true
+dependencies:
+  module:
+    - basic_auth
+    - project_page
+    - serialization
+id: project_page
+plugin_id: project_page
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - basic_auth
