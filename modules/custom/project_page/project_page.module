@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains project_page.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function project_page_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the project_page module.
+    case 'help.page.project_page':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Api module') . '</p>';
+      return $output;
+
+    default:
+  }
+}

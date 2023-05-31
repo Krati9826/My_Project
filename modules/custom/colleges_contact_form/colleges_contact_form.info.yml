@@ -1,0 +1,5 @@
+name: Colleges Contact Form
+type: module
+description: Module for implementing Custom Rest Service for COLLEGES CONTACT FORM content type.
+core_version_requirement: ^9 || ^10
+package: Custom Project APIs

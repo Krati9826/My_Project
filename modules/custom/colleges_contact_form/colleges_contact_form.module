@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains colleges_contact_form.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function colleges_contact_form_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the colleges_contact_form module.
+    case 'help.page.colleges_contact_form':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Api module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
