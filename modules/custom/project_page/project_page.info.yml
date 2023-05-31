@@ -1,0 +1,5 @@
+name: Project Page
+type: module
+description: Module for implementing Custom Rest Service for PROJECT PAGE content type.
+core_version_requirement: ^9 || ^10
+package: Custom Project APIs

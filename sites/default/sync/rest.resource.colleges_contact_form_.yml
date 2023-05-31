@@ -1,0 +1,18 @@
+uuid: 7d6b83c3-2d7c-417b-867b-449f6561b930
+langcode: en
+status: true
+dependencies:
+  module:
+    - basic_auth
+    - colleges_contact_form
+    - serialization
+id: colleges_contact_form_
+plugin_id: colleges_contact_form_
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - basic_auth

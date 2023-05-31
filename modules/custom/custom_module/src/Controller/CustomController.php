@@ -7,10 +7,10 @@ class CustomController{
         $num1 = 10;
         $num2 = 20;
         $sum = $num1 + $num2;
-        $nids = \Drupal::entityQuery('node')->condition('type','page')->execute();
+        $nids = \Drupal::entityQuery('node')->condition('type','colleges_contact_form_')->execute();
         dump($nids);die();
-        $nodes =  \Drupal\node\Entity\Node::load($nids[9]);
-         dump($nodes);die();
+        // $nodes =  \Drupal\node\Entity\Node::load($nids[9]);
+        //  dump($nodes);die();
         // return[
         //     '#type' => 'markup',
         //     '#markup' => "<div class='test'>$sum</div>",
