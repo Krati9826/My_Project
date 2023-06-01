@@ -1,0 +1,22 @@
+{
+	"info": {
+		"_postman_id": "3f425031-75d1-4058-970a-ebb0e7f9c2dd",
+		"name": "MenuItems",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "menuitemsrequest",
+			"_postman_id": "1d973a7c-74ae-42ce-abcd-294c55dbe504",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": ""
+			},
+			"response": []
+		}
+	]
+}
