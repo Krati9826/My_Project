@@ -1,0 +1,60 @@
+{
+	"info": {
+		"_postman_id": "a62d50ec-c8dd-485d-99f7-adb61b40edc0",
+		"name": "ContentType",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Project page",
+			"_postman_id": "f79bd6ff-0967-4ddf-9377-12b1955ecdf6",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Colleges Contact Form",
+			"_postman_id": "d554a2f0-fa5e-43b2-a4fa-e459d2e7fb70",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "drupal9",
+						"username": "drupal9"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://mit.lndo.site/colleges-contact-form?format =json",
+					"protocol": "https",
+					"host": [
+						"mit",
+						"lndo",
+						"site"
+					],
+					"path": [
+						"colleges-contact-form"
+					],
+					"query": [
+						{
+							"key": "format ",
+							"value": "json",
+							"type": "text"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
