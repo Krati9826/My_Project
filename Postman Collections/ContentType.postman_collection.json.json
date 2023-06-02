@@ -7,7 +7,7 @@
 	"item": [
 		{
 			"name": "Project page",
-			"_postman_id": "f79bd6ff-0967-4ddf-9377-12b1955ecdf6",
+			"id": "f79bd6ff-0967-4ddf-9377-12b1955ecdf6",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -20,7 +20,7 @@
 		},
 		{
 			"name": "Colleges Contact Form",
-			"_postman_id": "d554a2f0-fa5e-43b2-a4fa-e459d2e7fb70",
+			"id": "d554a2f0-fa5e-43b2-a4fa-e459d2e7fb70",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -53,6 +53,18 @@
 						}
 					]
 				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "9d0eb9f9-38f7-4a6e-a274-25095e784d0c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
 			},
 			"response": []
 		}
