@@ -10,21 +10,10 @@ services:
   pma:
     type: phpmyadmin
     hosts:
-      - mitproject.com
-    proxy:
-      appserver:
-        - mitproject.com
+      - database
 proxy:
   pma:
     - phpmyadmin.lndo.site
-  mitproject.com:
-    appserver
 tooling:
   drupal:
     service: appserver
-# hosts:
-#     - mitproject.com
-
-
-
-
